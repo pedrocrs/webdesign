@@ -1,0 +1,34 @@
+*{margin: 0; padding: 0;}
+
+header{
+   background: #000;
+   width: 100%; 
+   color: #fff;
+   padding: 20px 0;
+}
+
+#banner{
+    width: 100%;
+    height: 600px;
+    background: url("../images/zhong.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+footer{
+   background: #000;
+   color: #fff;
+   padding: 10px 0;
+   text-align: center;
+}
+
+.container{
+    width: 994px;
+    margin: 0 auto;
+}
+
+.space{
+    padding: 0 0 40px 0;
+}
+
