@@ -1,4 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 *{margin: 0; padding: 0;}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
 
 header{
    background: #000;
@@ -32,3 +44,41 @@ footer{
     padding: 0 0 40px 0;
 }
 
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    color: #fff;
+    padding: 10px 15px;
+}
+
+
+.menu ul li:hover{
+    color: #09f;
+}
+
+#mobile{
+    display: none
+}
+
+a{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 900px){
+    .container{
+        width: 100%;
+    }
+    
+    .menu ul li{
+        display: block;
+    }
+
+    .menu ul{
+        display: none;
+    }
+
+    #mobile{
+        display: block;
+        padding-left: 15px;
+    }
+}
